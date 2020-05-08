@@ -20,7 +20,7 @@ setuptools.setup(
     ],
     package_dir={"hello": "hello"},
     package_data={"hello": ["*.jinja2"]},
-    install_requires=["Jinja2"],
+    install_requires="Jinja2 bullet click GitPython requests".split(),
     entry_points={"console_scripts": ["hello=hello.hello:main"],},
     python_requires=">=3.6",
 )
