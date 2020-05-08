@@ -19,5 +19,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    entry_points={"console_scripts": ["funniest-joke=hello.hello:main"],},
     python_requires=">=3.6",
 )
